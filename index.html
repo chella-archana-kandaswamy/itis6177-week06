@@ -10,7 +10,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js" integrity="sha256-T/f7Sju1ZfNNfBh7skWn0idlCBcI3RwdLSS4/I7NQKQ=" crossorigin="anonymous"></script>
 <script>
     function callApi(){
-        axios.get('http://157.245.13.74/:3000')
+        axios.get('http://157.245.13.74:3000')
         .then(resp=>{
             document.getElementById("print").innerHTML = resp.data;
             console.log(resp);
